@@ -7,30 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8bc403b-5950-45e8-aff5-3ff47dc66713" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/data/ComplexParameter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/data/Exception.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/ES3Generator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/BaseData.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Class.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Field.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Parameter.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/j2i.iml" afterPath="$PROJECT_DIR$/j2i.iml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/Application.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/Application.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/Function.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/data/Function.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/InterfaceClass.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/data/InterfaceClass.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/Parameter.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/api/data/Parameter.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/Generator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/JsGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/JsGenerator.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/validator/Validator.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/validator/Validator.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java" afterPath="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ES3Generator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ES3Generator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/ES3Generator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+            <state relative-caret-position="264">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#309#310#0" expanded="true" />
@@ -92,8 +70,8 @@
       <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <state relative-caret-position="192">
+              <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -109,7 +87,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Class.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Class.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Class.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -135,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Field.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -209,13 +187,14 @@
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Function.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Parameters.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/BasicData.java" />
-        <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/BaseData.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Parameter.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Class.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/Generator.java" />
         <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/JsES3Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/ES3Generator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java" />
       </list>
     </option>
   </component>
@@ -233,8 +212,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="550" />
-    <option name="y" value="46" />
+    <option name="x" value="172" />
+    <option name="y" value="335" />
     <option name="width" value="1036" />
     <option name="height" value="1038" />
   </component>
@@ -530,12 +509,20 @@
       <workItem from="1516877917365" duration="16576000" />
       <workItem from="1516897606991" duration="1325000" />
       <workItem from="1516899290999" duration="7554000" />
-      <workItem from="1516956455174" duration="4102000" />
+      <workItem from="1516956455174" duration="4851000" />
     </task>
+    <task id="LOCAL-00001" summary="进度更新">
+      <created>1516963623945</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1516963623945</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29557000" />
+    <option name="totallyTimeSpent" value="30306000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -578,6 +565,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="进度更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="进度更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -710,6 +701,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -772,6 +764,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#151#152#0" expanded="false" />
+            <element signature="e#170#171#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -814,6 +811,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#151#152#0" expanded="false" />
+            <element signature="e#170#171#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -824,6 +826,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -913,48 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/BaseData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Parameter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/Generator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -967,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/ES3Generator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="264">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
@@ -984,6 +945,48 @@
             <element signature="e#709#710#0" expanded="true" />
             <element signature="e#736#737#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Parameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="27" lean-forward="true" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="37" lean-forward="false" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/BaseData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/asneko/j2i/generator/data/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>

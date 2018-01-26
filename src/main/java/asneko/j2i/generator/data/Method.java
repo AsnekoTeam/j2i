@@ -6,10 +6,7 @@ import lombok.Data;
  * @author Formyown
  */
 @Data
-public class Method {
-    private String comment;
-    private String[] annotations;
-    private String[] modifiers;
+public class Method extends BaseData{
     private String returnTypeName;
     private String name;
     private Parameter[] parameters;
