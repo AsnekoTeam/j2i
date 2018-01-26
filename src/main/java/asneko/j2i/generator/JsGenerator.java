@@ -1,8 +1,8 @@
 package asneko.j2i.generator;
 
-import asneko.j2i.api.Function;
-import asneko.j2i.api.InterfaceClass;
-import asneko.j2i.api.Parameter;
+import asneko.j2i.api.data.Function;
+import asneko.j2i.api.data.InterfaceClass;
+import asneko.j2i.api.data.Parameter;
 
 import java.util.List;
 

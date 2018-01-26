@@ -7,10 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="j2i" />
         <module name="j2japi" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="j2i" target="1.5" />
       <module name="j2japi" target="1.8" />
     </bytecodeTargetLevel>
   </component>

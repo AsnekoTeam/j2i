@@ -1,9 +1,7 @@
 package asneko.j2i;
 
-import asneko.j2i.api.Function;
-import asneko.j2i.api.InterfaceClass;
+import asneko.j2i.api.data.InterfaceClass;
 import asneko.j2i.generator.Generator;
-import asneko.j2i.generator.JsGenerator;
 import asneko.j2i.validator.Validator;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

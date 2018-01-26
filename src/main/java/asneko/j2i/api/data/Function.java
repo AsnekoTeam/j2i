@@ -1,4 +1,4 @@
-package asneko.j2i.api;
+package asneko.j2i.api.data;
 
 import lombok.Data;
 
@@ -11,6 +11,7 @@ public class Function {
     String url;
     List<Parameter> paramHeader;
     List<Parameter> paramBody;
+    List<Exception> exceptions;
 }
 //{"name":"myInterface",method:"POST",description:"This is description","url","http://localhost",
 // "paramHeader":[{"paramName":"token","paramType":"string","paramDescription":"the token"}]

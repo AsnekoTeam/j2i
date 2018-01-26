@@ -1,4 +1,4 @@
-package asneko.j2i.api;
+package asneko.j2i.api.data;
 
 import lombok.Data;
 

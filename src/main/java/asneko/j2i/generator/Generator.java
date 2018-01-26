@@ -1,18 +1,24 @@
 package asneko.j2i.generator;
 
-import asneko.j2i.api.InterfaceClass;
 
-public abstract class Generator {
-    public abstract String generate(InterfaceClass apiClass);
-    public static Generator create(String languageName)throws Exception
-    {
-        switch (languageName)
-        {
-            case "js":
-                return new JsGenerator();
-            default:
-                    throw new Exception("Language not support");
 
-        }
-    }
+import asneko.j2i.generator.data.*;
+import asneko.j2i.generator.data.Class;
+
+import java.util.List;
+
+/**
+ * @author Formyown, AnonyK
+ */
+public interface Generator {
+    /**
+     * @return
+     */
+    String getSupportLanguage();
+    String getSupportLanguageFileExtension();
+
+    String generateParameters(List<Parameter> paras);
+    String generateMethod(Method method);
+    String generateField(Field field);
+    String generateClass(Class clazz);
 }
