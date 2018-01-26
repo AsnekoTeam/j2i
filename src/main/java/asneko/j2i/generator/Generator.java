@@ -11,12 +11,7 @@ import java.util.List;
  * @author Formyown, AnonyK
  */
 public interface Generator {
-    /**
-     * @return
-     */
     String getSupportLanguage();
-    String getSupportLanguageFileExtension();
-
     String generateParameters(List<Parameter> paras);
     String generateMethod(Method method);
     String generateField(Field field);

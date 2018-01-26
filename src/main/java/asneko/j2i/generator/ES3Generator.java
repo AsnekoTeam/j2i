@@ -5,29 +5,34 @@ import asneko.j2i.generator.data.Field;
 import asneko.j2i.generator.data.Method;
 import asneko.j2i.generator.data.Parameter;
 
+import java.lang.reflect.Array;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class ES3Generator implements Generator {
+    @Override
     public String getSupportLanguage() {
-        return null;
+        return "ES3";
     }
 
-    public String getSupportLanguageFileExtension() {
-        return null;
+    @Override
+    public String generateParameters(Parameter[] paras) {
+        return paras.stream()
+                .map(Parameter::getName)
+                .collect(Collectors.joining(", "));
     }
 
-    public String generateParameters(List<Parameter> paras) {
-        return null;
-    }
-
+    @Override
     public String generateMethod(Method method) {
-        return null;
+        String paras = generateParameters(method.getParameters());
     }
 
+    @Override
     public String generateField(Field field) {
         return null;
     }
 
+    @Override
     public String generateClass(Class clazz) {
         return null;
     }
