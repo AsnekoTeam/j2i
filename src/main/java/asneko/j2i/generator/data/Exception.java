@@ -8,9 +8,6 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class Parameter {
-    private String name;
+public class Exception {
     private String typeName;
-    private String comment;
-    private String[] annotations;
 }

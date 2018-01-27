@@ -12,7 +12,7 @@ import java.util.List;
  */
 public interface Generator {
     String getSupportLanguage();
-    String generateParameters(List<Parameter> paras);
+    String generateParameters(Parameter[] paras);
     String generateMethod(Method method);
     String generateField(Field field);
     String generateClass(Class clazz);
