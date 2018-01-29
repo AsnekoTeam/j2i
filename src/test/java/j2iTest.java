@@ -34,6 +34,7 @@ public class j2iTest {
         clazz.setSimpleName("TestClass");
         clazz.setExtraHead("methods of getting user info");
         clazz.setComment("class of user info");
+        clazz.setExtraHead("import foo from bar;\r\n");
         Generator generator = new ES6Generator();
         System.err.print(generator.generateClass(clazz));
 
