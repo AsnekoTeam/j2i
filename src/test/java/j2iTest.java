@@ -1,6 +1,7 @@
 import asneko.j2i.Application;
 import asneko.j2i.generator.ES6Generator;
 import asneko.j2i.generator.Generator;
+import asneko.j2i.generator.data.Class;
 import asneko.j2i.generator.data.Exception;
 import asneko.j2i.generator.data.Method;
 import asneko.j2i.generator.data.Parameter;
@@ -14,6 +15,7 @@ public class j2iTest {
      */
     public static void main(String[] args)
     {
+        Class clazz = new Class();
         Method testMethod = new Method();
         testMethod.setName("getUserInfo");
         testMethod.setReturnTypeName("UserInfoTransfer");
@@ -28,9 +30,12 @@ public class j2iTest {
         testMethod.setExceptions(new Exception[]{
                 new Exception("UserNotFoundException","Can not find the specific user")
         });
-
+        clazz.setMethods(new Method[]{testMethod,testMethod});
+        clazz.setSimpleName("TestClass");
+        clazz.setExtraHead("methods of getting user info");
+        clazz.setComment("class of user info");
         Generator generator = new ES6Generator();
-        System.err.print(generator.generateMethod(testMethod));
+        System.err.print(generator.generateClass(clazz));
 
 //        System.out.print(new Application(Generator.create("js")).generate("{\n" +
 //                "\t\"className\": \"cls\",\n" +

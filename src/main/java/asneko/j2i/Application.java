@@ -1,7 +1,6 @@
 package asneko.j2i;
 
 import asneko.j2i.api.data.InterfaceClass;
-import asneko.j2i.generator.ES3Generator;
 import asneko.j2i.generator.Generator;
 import asneko.j2i.generator.data.Method;
 import asneko.j2i.generator.data.Parameter;

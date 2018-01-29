@@ -1,12 +1,13 @@
 package asneko.j2i.generator;
 
 import asneko.j2i.generator.data.Class;
+import asneko.j2i.generator.data.Exception;
 import asneko.j2i.generator.data.Field;
 import asneko.j2i.generator.data.Method;
 import asneko.j2i.generator.data.Parameter;
-import asneko.j2i.generator.data.Exception;
 
-
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -31,7 +32,7 @@ public class ES6Generator implements Generator {
                 comment,
                 method.getName(),
                 paras,
-                Stream.of(method.getContent()).map(c->"\t" + c).collect(Collectors.joining()));
+                Stream.of(method.getContent()).map(c->"    " + c).collect(Collectors.joining()));
     }
 
     @Override
@@ -41,10 +42,30 @@ public class ES6Generator implements Generator {
 
     @Override
     public String generateClass(Class clazz) {
-        return null;
+        List<String> methods = new ArrayList<>();
+        for (Method method : clazz.getMethods()) {
+            methods.add(generateMethod(method));
+        }
+        String[] methodsCode = new String[]{};
+        methodsCode = methods.toArray(methodsCode);
+        return String.format("%sclass %s {\r\n%s\r\n}\r\n",generateClassComment(clazz),
+                clazz.getSimpleName(),Stream.of(methodsCode)
+                        .collect(Collectors.joining()));
     }
-
-    public String generateMethodComment(Method method){
+    private String generateClassComment(Class clazz)
+    {
+        StringBuilder comment = new StringBuilder();
+        comment.append("/**");
+        comment.append("\r\n * ").append(clazz.getComment());
+        comment.append("\r\n * @public");
+        comment.append("\r\n * @class ").append(clazz.getSimpleName());
+        if(clazz.getExtraHead() != null)
+        //comment.append("\r\n * @classdesc ").append(clazz.getExtraHead());
+        comment.append("\r\n */");
+        comment.append("\r\n");
+        return  comment.toString();
+    }
+    private String generateMethodComment(Method method){
         StringBuilder comment = new StringBuilder();
         comment.append("/**");
         comment.append("\r\n * ").append(method.getComment());
