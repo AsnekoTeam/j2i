@@ -48,7 +48,7 @@ public class ES6Generator implements Generator {
         }
         String[] methodsCode = new String[]{};
         methodsCode = methods.toArray(methodsCode);
-        return String.format("%sclass %s {\r\n%s\r\n}\r\n",generateClassComment(clazz),
+        return String.format("%sexport default class %s {\r\n%s\r\n}\r\n",generateClassComment(clazz),
                 clazz.getSimpleName(),Stream.of(methodsCode)
                         .collect(Collectors.joining()));
     }
