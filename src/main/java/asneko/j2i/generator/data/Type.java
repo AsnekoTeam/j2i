@@ -8,7 +8,7 @@ import lombok.Data;
  */
 @Data
 @AllArgsConstructor
-public class Exception {
+public class Type {
     private String typeName;
-    private String comment;
+    private Type[] properties;
 }

@@ -15,7 +15,6 @@ public class Method extends BaseData{
     private String returnValueComment;
     private String name;
     private Parameter[] parameters;
-    private String[] exceptions;
-    private String content;
-
+    private Exception[] exceptions;
+    private String[] content;
 }

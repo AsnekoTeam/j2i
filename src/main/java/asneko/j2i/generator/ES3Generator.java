@@ -1,13 +1,12 @@
 package asneko.j2i.generator;
 
-import asneko.j2i.api.data.Exception;
 import asneko.j2i.generator.data.Class;
 import asneko.j2i.generator.data.Field;
 import asneko.j2i.generator.data.Method;
 import asneko.j2i.generator.data.Parameter;
+import asneko.j2i.generator.data.Exception;
 
-import java.lang.reflect.Array;
-import java.util.List;
+
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -27,12 +26,12 @@ public class ES3Generator implements Generator {
     @Override
     public String generateMethod(Method method) {
         String paras = generateParameters(method.getParameters());
-
-
-
-
-        String.format("%s:function(%s){\r\n%s\r\n}\r\n", method.getName(), paras, method.getContent());
-        return null;
+        String comment = generateMethodComment(method);
+        return String.format("%s%s:function(%s){\r\n%s\r\n}\r\n",
+                comment,
+                method.getName(),
+                paras,
+                Stream.of(method.getContent()).map(c->"\t" + c).collect(Collectors.joining()));
     }
 
     @Override
@@ -67,15 +66,14 @@ public class ES3Generator implements Generator {
             comment.append(method.getReturnValueComment());
         }
 
-        for (String ex : method.getExceptions()){
-            comment.append("\r\n * @throws ").append(p.getName());
-            if(p.getName() != null){
+        for (Exception ex : method.getExceptions()){
+            comment.append("\r\n * @throws ");
+            if(ex.getTypeName() != null){
                 comment.append(" {");
-                comment.append(p.getTypeName());
+                comment.append(ex.getTypeName());
                 comment.append("} ");
-
             }
-            comment.append(p.getComment());
+            comment.append(ex.getComment());
         }
 
         comment.append("\r\n */");
