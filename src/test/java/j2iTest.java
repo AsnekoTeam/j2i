@@ -1,5 +1,5 @@
 import asneko.j2i.Application;
-import asneko.j2i.generator.ES3Generator;
+import asneko.j2i.generator.ES6Generator;
 import asneko.j2i.generator.Generator;
 import asneko.j2i.generator.data.Exception;
 import asneko.j2i.generator.data.Method;
@@ -29,7 +29,7 @@ public class j2iTest {
                 new Exception("UserNotFoundException","Can not find the specific user")
         });
 
-        Generator generator = new ES3Generator();
+        Generator generator = new ES6Generator();
         System.err.print(generator.generateMethod(testMethod));
 
 //        System.out.print(new Application(Generator.create("js")).generate("{\n" +

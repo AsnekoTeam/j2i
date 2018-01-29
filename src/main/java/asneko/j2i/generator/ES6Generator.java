@@ -10,10 +10,10 @@ import asneko.j2i.generator.data.Exception;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class ES3Generator implements Generator {
+public class ES6Generator implements Generator {
     @Override
     public String getSupportLanguage() {
-        return "ES3";
+        return "ES6";
     }
 
     @Override
@@ -27,7 +27,7 @@ public class ES3Generator implements Generator {
     public String generateMethod(Method method) {
         String paras = generateParameters(method.getParameters());
         String comment = generateMethodComment(method);
-        return String.format("%s%s:function(%s){\r\n%s\r\n}\r\n",
+        return String.format("%s%s(%s){\r\n%s\r\n}\r\n",
                 comment,
                 method.getName(),
                 paras,
